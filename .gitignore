@@ -1,0 +1,27 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# Dependencies and build output (none expected here)
+node_modules/
+vendor/
+dist/
+build/
+
+# Never publish these
+.env
+.env.*
+*.key
+*.pem
+*.json
+*.jpg
+*.jpeg
+*.pdf
+*.rar
+*.zip
+*.log
